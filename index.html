@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Emilsen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Pantalla 1: Excelente Mujer -->
+        <div class="slide slide-1 active">
+            <div class="image-background" style="background-image: url('1.jfif')"></div>
+            <div class="content">
+                <div class="message-box">
+                    <h1 class="title animate-in">Una Excelente Mujer</h1>
+                    <div class="attributes">
+                        <p class="attribute animate-in" style="animation-delay: 0.2s;">✨ Fuerte y valiente</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.4s;">💖 De corazón noble</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.6s;">🌟 Inspiradora y dedicada</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.8s;">🌸 Bella por dentro y fuera</p>
+                    </div>
+                    <p class="subtitle animate-in" style="animation-delay: 1s;">Emilsen Maria Salgado Duran, eres una mujer excepcional que brilla con tu luz propia.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla 2: Buena Madre -->
+        <div class="slide slide-2">
+            <div class="image-background" style="background-image: url('2.jpg')"></div>
+            <div class="content">
+                <div class="message-box">
+                    <h1 class="title animate-in">Una Increíble Madre</h1>
+                    <div class="attributes">
+                        <p class="attribute animate-in" style="animation-delay: 0.2s;">💝 Tu amor es incondicional</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.4s;">👩‍👧‍👦 Sacrificio y entrega diaria</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.6s;">🤗 Abrazos llenos de calidez</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.8s;">🌺 A pesar de todo, adelante</p>
+                    </div>
+                    <p class="subtitle animate-in" style="animation-delay: 1s;">Aunque los caminos sean difíciles, tu amor nunca falla. Eres la fuerza que sostiene a tu familia.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla 3: Buena Hija -->
+        <div class="slide slide-3">
+            <div class="image-background" style="background-image: url('3.jpg')"></div>
+            <div class="content">
+                <div class="message-box">
+                    <h1 class="title animate-in">Una Hija Ejemplar</h1>
+                    <div class="attributes">
+                        <p class="attribute animate-in" style="animation-delay: 0.2s;">❤️ Respeto y admiración</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.4s;">🙏 Gratitud en cada acto</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.6s;">💪 Fortaleza compartida</p>
+                        <p class="attribute animate-in" style="animation-delay: 0.8s;">🌟 Orgullo de tu familia</p>
+                    </div>
+                    <p class="subtitle animate-in" style="animation-delay: 1s;">Tu dedicación y amor hacia los tuyos es un reflejo de tu hermoso corazón. Eres la dicha de quienes te aman.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pantalla 4: Feliz Cumpleaños -->
+        <div class="slide slide-4">
+            <div class="image-background" style="background-image: url('4.jpg')"></div>
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="birthday-container">
+                    <h1 class="birthday-title">¡FELIZ</h1>
+                    <h1 class="birthday-title">CUMPLEAÑOS!</h1>
+                    <div class="confetti"></div>
+                    <div class="balloons">
+                        <div class="balloon" style="left: 10%; animation-delay: 0s;"></div>
+                        <div class="balloon" style="left: 20%; animation-delay: 0.2s;"></div>
+                        <div class="balloon" style="left: 30%; animation-delay: 0.4s;"></div>
+                        <div class="balloon" style="left: 40%; animation-delay: 0.6s;"></div>
+                        <div class="balloon" style="left: 50%; animation-delay: 0.8s;"></div>
+                        <div class="balloon" style="left: 60%; animation-delay: 1s;"></div>
+                        <div class="balloon" style="left: 70%; animation-delay: 1.2s;"></div>
+                        <div class="balloon" style="left: 80%; animation-delay: 1.4s;"></div>
+                        <div class="balloon" style="left: 90%; animation-delay: 1.6s;"></div>
+                    </div>
+                    <p class="birthday-message">Que cada año sea lleno de bendiciones, sonrisas y momentos hermosos.</p>
+                    <p class="birthday-name">Emilsen Maria Salgado Duran</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles de navegación -->
+        <div class="navigation">
+            <button class="nav-btn nav-prev" onclick="previousSlide()">❮</button>
+            <div class="dots">
+                <span class="dot active" onclick="goToSlide(0)"></span>
+                <span class="dot" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+                <span class="dot" onclick="goToSlide(3)"></span>
+            </div>
+            <button class="nav-btn nav-next" onclick="nextSlide()">❯</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
